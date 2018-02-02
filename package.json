@@ -1,0 +1,26 @@
+{
+  "name": "pmdtodo-master",
+  "version": "1.0.0",
+  "description": "Projet de cours basé sur le site todomvc.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaoriD/Todolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaoriD/Todolist/issues"
+  },
+  "homepage": "https://github.com/MaoriD/Todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12",
+    "path": "^0.12.7"
+  }
+}
