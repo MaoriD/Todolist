@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <title>Test</title>
+</head>
+<body>
+    <header>
+        <h1>Todo</h1>
+    </header>
+
+    <main>
+        <form name="taches">
+            <input type="text"  name="taches" placeholder="Ecrivez votre tâche"/>
+            <input type="submit" value="Ajouter" />
+        </form>
+        <!-- Faire une boucle sur la collection de données -->
+        <% for(let item of data) { %>
+            <article>
+                <h2><%= item.state %></h2>
+                <p><%= item.content %></p>
+            </article>
+        <% } %>
+
+    </main>
+
+    <footer>Under MIT Licence</footer>
+</body>
+</html>

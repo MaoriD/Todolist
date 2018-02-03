@@ -15,6 +15,6 @@ app.use('/', frontRoute);
 app.use('/api', apiRoute);
 
 app.engine( 'html', ejs.renderFile );
-app.set( 'view engine', 'html' );
+app.set( 'view engine', 'ejs' );
 
 app.listen( port, () => console.log(`Le serveur est lancé sur le port ${port}`) );
